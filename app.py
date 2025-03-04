@@ -19,4 +19,4 @@ def add_to_cart():
     return jsonify({"message": "Product added to cart", "product": data})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
